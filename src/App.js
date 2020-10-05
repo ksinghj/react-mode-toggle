@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './App.css'
+import '../../modules/styles/DarkModeToggle.css'
 
-const App = () => {
+const DarkModeToggle = () => {
   let [toggled, setToggled] = useState(false)
 
   const handleToggle = () => {
@@ -18,4 +18,4 @@ const App = () => {
   )
 }
 
-export default App
+export default DarkModeToggle
